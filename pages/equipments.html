@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusLink - Equipment</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <a href="../index.html" class="logo">CampusLink</a>
+    <nav aria-label="main nav">
+      <ul>
+        <li><a href="dashboard.html" class="active">Dashboard</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="equipments.html">Equipment</a></li>
+        <li><a href="incident.html">Incidents</a></li>
+        <li><a href="reports" class="btn">Report Incidents</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Equipment Inventory</h1>
+
+    <div class="table-responsive">
+      <table>
+        <thead>
+          <tr>
+            <th>Code</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Room</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>EQ-VP-01</td>
+            <td>Epson Projector</td>
+            <td>Display</td>
+            <td>B102</td>
+            <td><span class="badge badge-danger">Out of Order</span></td>
+          </tr>
+          <tr>
+            <td>EQ-PC-15</td>
+            <td>Dell i7 Tower PC</td>
+            <td>Computing</td>
+            <td>Lab C03</td>
+            <td><span class="badge badge-resolved">Working</span></td>
+          </tr>
+          <tr>
+            <td>EQ-SW-02</td>
+            <td>Cisco 24-port Switch</td>
+            <td>Network</td>
+            <td>A201</td>
+            <td><span class="badge badge-progress">Maintenance</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 CampusLink - Projet Fil Rouge B1 Ynov</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusLink - Reports</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <a href="../index.html" class="logo">CampusLink</a>
+    <nav aria-label="main nav">
+      <ul>
+        <li><a href="dashboard.html" class="active">Dashboard</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="equipments.html">Equipment</a></li>
+        <li><a href="incident.html">Incidents</a></li>
+        <li><a href="reports.html" class="btn">Report Incidents</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Report a New Incident</h1>
+
+    <section class="card">
+      <form action="#" method="get">
+        <div class="form-group">
+          <label for="titre">Incident title *</label>
+          <input type="text" id="titre" name="titre" required placeholder="e.g. Broken screen, Wi-Fi issue...">
+        </div>
+
+        <div class="form-group">
+          <label for="salle">Room concerned *</label>
+          <select id="salle" name="salle" required>
+            <option value="">-- Select a room --</option>
+            <option value="A101">Room A101</option>
+            <option value="B102">Room B102</option>
+            <option value="C03">Network Lab C03</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="equipement">Equipment (optional)</label>
+          <select id="equipement" name="equipement">
+            <option value="">-- Select equipment --</option>
+            <option value="EQ-VP-01">Epson Projector</option>
+            <option value="EQ-PC-15">Dell Tower PC</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="priorite">Priority *</label>
+          <select id="priorite" name="priorite" required>
+            <option value="Low">Low</option>
+            <option value="Medium" selected>Medium</option>
+            <option value="High">High</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="description">Detailed description *</label>
+          <textarea id="description" name="description" rows="5" required placeholder="Describe the problem you noticed..."></textarea>
+        </div>
+
+        <button type="submit" class="btn">Submit report</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 CampusLink - Projet Fil Rouge B1 Ynov</p>
+  </footer>
+</body>
+</html>
