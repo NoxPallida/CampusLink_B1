@@ -1,7 +1,7 @@
 # CampusLink - Mission FR01 (HTML/CSS)
 
 ## Contexte
-Projet fil rouge B1 CampusLink : Intégration statique et responsive des maquettes sans dépendance JavaScript ou backend.
+Projet fil rouge B1 CampusLink : 
 
 ## Arborescence du Projet
 - `index.html` : Page d'accueil du projet
@@ -14,4 +14,4 @@ Projet fil rouge B1 CampusLink : Intégration statique et responsive des maquett
 - `pages/declaration.html` : Formulaire de déclaration d'un nouvel incident
 
 ## Lancement
-Ouvrez directement le fichier `index.html` dans un navigateur web.
+juste run le index.html
