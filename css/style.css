@@ -103,7 +103,6 @@ h2 {
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
   padding: 1.5rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .card h3 {
@@ -191,6 +190,12 @@ input:focus, select:focus, textarea:focus {
   cursor: pointer;
   text-decoration: none;
   transition: background-color var(--transition-speed);
+}
+
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.85rem;
+  border-radius: 2.5px;
 }
 
 .btn:hover {
