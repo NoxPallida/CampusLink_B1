@@ -1,56 +1,56 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CampusLink - Liste des Incidents</title>
+  <title>CampusLink - Incidents</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
   <header>
     <a href="../index.html" class="logo">CampusLink</a>
-    <nav aria-label="Navigation principale">
+    <nav aria-label="main nav">
       <ul>
-        <li><a href="dashboard.html">Tableau de bord</a></li>
-        <li><a href="salles.html">Salles</a></li>
-        <li><a href="equipements.html">Équipements</a></li>
-        <li><a href="incident.html" class="active">Incidents</a></li>
-        <li><a href="declaration.html" class="btn">Déclarer un incident</a></li>
+        <li><a href="dashboard.html" class="active">Dashboard</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="equipments.html">Equipment</a></li>
+        <li><a href="incident.html">Incidents</a></li>
+        <li><a href="reports.html" class="btn">Report Incidents</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <h1>Tous les Incidents</h1>
+    <h1>All Incidents</h1>
 
     <div class="table-responsive">
       <table>
         <thead>
           <tr>
             <th>ID</th>
-            <th>Titre</th>
-            <th>Salle</th>
+            <th>Title</th>
+            <th>Room</th>
             <th>Date</th>
-            <th>Statut</th>
+            <th>Status</th>
             <th>Action</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>#INC-101</td>
-            <td>Vidéoprojecteur HS</td>
+            <td>Projector Not Working</td>
             <td>B102</td>
-            <td>01/10/2026</td>
-            <td><span class="badge badge-pending">En attente</span></td>
-            <td><a href="incident-detail.html" class="btn" style="padding: 0.25rem 0.5rem; font-size: 0.85rem;">Détails</a></td>
+            <td>10/01/2026</td>
+            <td><span class="badge badge-pending">Pending</span></td>
+            <td><a href="incident-detail.html" class="btn" style="padding: 0.25rem 0.5rem; font-size: 0.85rem;">Details</a></td>
           </tr>
           <tr>
             <td>#INC-102</td>
-            <td>Pas de réseau Wi-Fi</td>
+            <td>No Wi-Fi Connection</td>
             <td>A201</td>
-            <td>02/10/2026</td>
-            <td><span class="badge badge-progress">En cours</span></td>
-            <td><a href="incident-detail.html" class="btn" style="padding: 0.25rem 0.5rem; font-size: 0.85rem;">Détails</a></td>
+            <td>10/02/2026</td>
+            <td><span class="badge badge-progress">In Progress</span></td>
+            <td><a href="incident-detail.html" class="btn" style="padding: 0.25rem 0.5rem; font-size: 0.85rem;">Details</a></td>
           </tr>
         </tbody>
       </table>
