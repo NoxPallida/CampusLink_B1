@@ -1,9 +1,38 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0; url=pages/dashboard.html">
-    <title>Redirection...</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusLink - Acceuil</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
+<body>
+  <header>
+    <a href="index.html" class="logo">CampusLink</a>
+    <nav aria-label="Navigation principale">
+      <ul>
+        <li><a href="pages/dashboard.html">Tableau de bord</a></li>
+        <li><a href="pages/salles.html">Salles</a></li>
+        <li><a href="pages/equipements.html">Équipements</a></li>
+        <li><a href="pages/incident.html">Incidents</a></li>
+        <li><a href="pages/declaration.html" class="btn">Déclarer un incident</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card" style="text-align: center; padding: 3rem 1.5rem;">
+      <h1>Bienvenue sur CampusLink</h1>
+      <p>Système de gestion des équipements, salles et incidents techniques du campus.</p>
+      <div style="margin-top: 2rem; display: flex; gap: 1rem; justify-content: center;">
+        <a href="pages/dashboard.html" class="btn">Accéder au Tableau de Bord</a>
+        <a href="pages/declaration.html" class="btn btn-secondary">Déclarer un Incident</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 CampusLink - Projet Fil Rouge B1 Ynov</p>
+  </footer>
+</body>
 </html>

@@ -1,28 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Salles</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusLink - Salles</title>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
-        <h1 class="title">Dashboard</h1>
-        <h3 class="second">Gestion du campus</h3>
+  <header>
+    <a href="../index.html" class="logo">CampusLink</a>
+    <nav aria-label="Navigation principale">
+      <ul>
+        <li><a href="dashboard.html">Tableau de bord</a></li>
+        <li><a href="salles.html" class="active">Salles</a></li>
+        <li><a href="equipements.html">Équipements</a></li>
+        <li><a href="incident.html">Incidents</a></li>
+        <li><a href="declaration.html" class="btn">Déclarer un incident</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
+    <h1>Liste des Salles</h1>
 
-        <nav class="header">
-            <a href="pages/dashboard.html">Dashboard</a>
-            <a href="pages/equipements.html">Equipement</a>
-            <a href="pages/incident.html">Incident</a>
-            <a href="pages/salles.html">Incident</a>
+    <section class="grid-cards">
+      <article class="card">
+        <h3>Salle A101</h3>
+        <p><strong>Capacité :</strong> 30 personnes</p>
+        <p><strong>Équipements :</strong> Vidéoprojecteur, PC Enseignant</p>
+        <p><strong>État :</strong> <span class="badge badge-resolved">Opérationnelle</span></p>
+      </article>
 
-        </nav>
-    </header>
-    <h1>HEY !</h1>
+      <article class="card">
+        <h3>Salle B102</h3>
+        <p><strong>Capacité :</strong> 50 personnes</p>
+        <p><strong>Équipements :</strong> Vidéoprojecteur, Sonorisation</p>
+        <p><strong>État :</strong> <span class="badge badge-danger">Incident en cours</span></p>
+      </article>
+
+      <article class="card">
+        <h3>Labo Réseau C03</h3>
+        <p><strong>Capacité :</strong> 20 personnes</p>
+        <p><strong>Équipements :</strong> 20 PC, Switches, Routeurs</p>
+        <p><strong>État :</strong> <span class="badge badge-resolved">Opérationnelle</span></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 CampusLink - Projet Fil Rouge B1 Ynov</p>
+  </footer>
 </body>
-<footer>
-    <h3> CampusLink - Ynov - 2026</h3>
-</footer>
 </html>
